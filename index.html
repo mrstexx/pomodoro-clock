@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>FreeCodeCamp</h1>
+        <h2>Pomodoro Clock Application</h2>
+        <div class="row">
+            <div class="col">
+                <p class="subtitle">Break length</p>
+                <div class="inline">
+                    <p class="minus" id="minusBreakTime">-</p>
+                    <p class="minutes" id="breakTime">5</p>
+                    <p class="plus" id="plusBreakTime">+</p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="subtitle">Session length</p>
+                <div class="inline">
+                    <p class="minus" id="minusOrgTime">-</p>
+                    <p class="minutes" id="breakOrgTime">25</p>
+                    <p class="plus" id="plusOrgTime">+</p>
+                </div>
+            </div>
+        </div>
+        <div class="clock">
+            <p class="time">25:00</p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-light" id="startButton">Start</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-light" id="resetButton">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
